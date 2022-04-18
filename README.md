@@ -1,15 +1,15 @@
 _printf 📄
-A formatted output conversion C program completed as part of the low-level programming and algorithm track at Holberton School. The program is a pseudo- recreation of the C standard library function, printf.
+A formatted output conversion C program completed as part of the low-level programming and algorithm track at main School. The program is a pseudo- recreation of the C standard library function, printf.
 
 Dependencies 👫
 The _printf function was coded on an Ubuntu 14.04 LTS machine with gcc version 4.8.4.
 
 Usage 🏃
-To use the _printf function, assuming the above dependencies have been installed, compile all .c files in the repository and include the header holberton.h with any main function.
+To use the _printf function, assuming the above dependencies have been installed, compile all .c files in the repository and include the header main.h with any main function.
 
 Example main.c:
 
-#include "holberton.h"
+#include "main.h"
 
 int main(void)
 {
@@ -278,11 +278,11 @@ Output:
 
 %
 More Examples 👍
-To print the address of Holberton School in the format "972 Mission St., San Francisco, CA 94103" where street, city and state are pointers to strings:
+To print the address of main School in the format "972 Mission St., San Francisco, CA 94103" where street, city and state are pointers to strings:
 
 Example main.c:
 
-#include "holberton.h"
+#include "main.h"
 
 int main(void)
 {
@@ -297,7 +297,7 @@ To print the result of basic mathematical operations prepended by signs and all 
 
 Example main.c:
 
-#include "holberton.h"
+#include "main.h"
 
 int main(void)
 {
@@ -312,7 +312,7 @@ To print the values of LONG_MAX and LONG_MIN aligned and left-justified with a w
 
 Example main.c:
 
-#include "holberton.h"
+#include "main.h"
 #include <limits.h>
 
 int main(void)
